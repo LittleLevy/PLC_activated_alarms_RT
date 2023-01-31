@@ -1,0 +1,30 @@
+Name: Tags
+Type: BaseObjectType
+Children:
+- Name: BOOL_1
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "BOOL_1"
+- Name: BOOL_2
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "BOOL_1"
+- Name: BOOL_3
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: true
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "BOOL_1"
